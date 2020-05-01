@@ -72,3 +72,17 @@ git version
 cd /angular-app
 sudo gedit /angular-app/src/app/app.component.html
 ng serve
+git init
+git add .
+git config --global user.email "surapasi@mail.uc.edu"
+git config --global user.name "srilakshmi"
+git commint -m "initial commit for Final Lab Part 2"
+git commit -m "initial commit for Final Lab Part 2"
+git remote set-url origin https://github.com/srilakshmi/it1081c-final-lab-part-2.git
+git remote add origin https://github.com/srilakshmi/it1081c-final-lab-part-2.git
+git push -u origin master
+yum install -y git
+git version
+cd /angular-app
+sudo gedit /angular-app/src/app/app.component.html
+ng serve
